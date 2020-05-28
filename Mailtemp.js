@@ -6,7 +6,7 @@ var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: 'youruser@gmail.com',
-    pass: 'apna dal'
+    pass: 'Password'
   }
 });
 var app = express();
