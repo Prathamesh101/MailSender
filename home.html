@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head><title> </title>
+  </head>
+  
+  <body>
+<div class="form-header">
+    <h2>Send us a message</h2>
+  </div>
+  <form method="post"  action="/sendmail">
+      <div>
+        <label >
+          subject
+          </label>
+          <input name="subject" type="text"/>
+      </div>
+      <div>
+        <label >Message</label>
+        <textarea  name="message" rows="4" autofocus></textarea>
+      </div>
+      <div>
+        <label >Email</label>
+        <input  name="email" type="email" value="" />
+        <button  type="submit">Send</button>
+      </div>
+      
+  </form>
+</body>
+  </html>
